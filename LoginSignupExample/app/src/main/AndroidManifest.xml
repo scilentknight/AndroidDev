@@ -10,15 +10,27 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LoginSignupExample" >
+        android:theme="@style/Theme.LoginSignupExample">
 
-        <activity android:name=".SignUpActivity" android:exported="true">
+        <!-- Launcher / Entry activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
             <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- Signup activity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+
+        <!--Forget Password activity-->
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

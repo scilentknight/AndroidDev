@@ -15,9 +15,14 @@
     <string name="terms_and_conditions">I accept all terms and conditions.</string>
     <string name="signup">Sign Up</string>
     <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
 
     <string-array name="nationality">
-        <item>Nepali</item>
-        <item>Indian</item>
+        <item>-- Select your nationality --</item>
+        <item>Nepal</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Other</item>
     </string-array>
 </resources>
