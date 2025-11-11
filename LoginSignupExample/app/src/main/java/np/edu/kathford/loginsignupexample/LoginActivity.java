@@ -39,7 +39,6 @@ public class LoginActivity extends AppCompatActivity {
 
 //                Log.d("username", username);
 //                Log.d("password", password);
-//                boolean isSuccess = validateLogin(username, password);
 
                 if (validateLogin(username, password)) {
                     Toast toast = Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_LONG);

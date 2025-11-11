@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -13,6 +14,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,6 +26,11 @@ public class SignUpActivity extends AppCompatActivity {
     private CheckBox termsAndConditionCheckBox;
     private Button signupButton;
     private TextView loginTextView;
+
+//    // making global variable
+//    private String fullName;
+//    private String mobileNumber, password, nationality;
+//    private boolean termsChecked;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -45,6 +52,7 @@ public class SignUpActivity extends AppCompatActivity {
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // local variable
                 String fullName = fullNameEditText.getText().toString().trim();
                 String mobileNumber = mobileNumberEditText.getText().toString().trim();
                 String password = passwordEditText.getText().toString().trim();
@@ -70,6 +78,7 @@ public class SignUpActivity extends AppCompatActivity {
                     genderRadioGroup.clearCheck();
                     nationalitySpinner.setSelection(0); // reset spinner to first item
                     termsAndConditionCheckBox.setChecked(false);
+                    finish();
                 }
             }
         });
@@ -82,8 +91,6 @@ public class SignUpActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
     private boolean validateSignUp(String fullName, String mobileNumber, String password, String gender, String nationality, boolean termsChecked) {
         if (fullName.isEmpty()) {
@@ -112,7 +119,6 @@ public class SignUpActivity extends AppCompatActivity {
         }
         return true;
     }
-
 
 }
 

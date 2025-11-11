@@ -20,7 +20,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:layout_below="@id/logoImageView"/>
+        android:layout_below="@id/logoImageView" />
 
     <EditText
         android:id="@+id/usernameEditText"
@@ -29,7 +29,8 @@
         android:layout_below="@id/greetingTextView"
         android:layout_marginTop="24dp"
         android:hint="@string/username"
-        android:inputType="text" />
+        android:inputType="text"
+        android:drawableStart="@android:drawable/btn_star"/>
     <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
@@ -61,7 +62,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="48dp"
-        android:background="@color/purple"
+        android:background="@drawable/custome_button"
         android:textAllCaps="false"/>
 
     <TextView
