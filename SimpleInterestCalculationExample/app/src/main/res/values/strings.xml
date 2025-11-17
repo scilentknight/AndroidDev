@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">SimpleInterestCalculationExample</string>
-    <string name="enter_principal">Enter Principal</string>
-    <string name="enter_rate">Enter Rate</string>
-    <string name="enter_time">Enter Time</string>
-    <string name="calculate">Calculate</string>
-    <string name="result">Result:</string>
-</resources>
