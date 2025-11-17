@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.androiddevkotlin.activitylifecycleexample"
+    namespace = "np.edu.kathford.activitylifecycleexample"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.androiddevkotlin.activitylifecycleexample"
+        applicationId = "np.edu.kathford.activitylifecycleexample"
         minSdk = 25
         targetSdk = 36
         versionCode = 1
