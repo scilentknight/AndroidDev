@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\scile\.gradle\caches\8.13\transforms\67d15efc9f3a24b50d2e307408bfc063\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\scile\.gradle\caches\8.13\transforms\321931f469da3057f6a16930a743ff03\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\scile\.gradle\caches\8.13\transforms\e1940ac118b8b0aa3277e280ec4098ac\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
@@ -53,8 +53,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\scile\.
 	xmlns:android
 		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:5:5-25:19
-INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:5:5-24:19
+INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\scile\.gradle\caches\8.13\transforms\67d15efc9f3a24b50d2e307408bfc063\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\scile\.gradle\caches\8.13\transforms\67d15efc9f3a24b50d2e307408bfc063\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\scile\.gradle\caches\8.13\transforms\e1940ac118b8b0aa3277e280ec4098ac\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -92,25 +92,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sc
 	android:dataExtractionRules
 		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:7:9-65
 activity#np.edu.kathford.activitylifecycleexample.MainActivity
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:14:9-21:20
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:9-20:20
 	android:exported
-		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:48-71
 	android:name
-		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:16:13-19:29
 category#android.intent.category.LAUNCHER
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:17:17-76
 	android:name
-		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:17:27-74
 action#android.intent.action.MAIN
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:17-68
 	android:name
-		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:25-66
 activity#np.edu.kathford.activitylifecycleexample.SecondActivity
-ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:23:9-52
+ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:23:19-49
+		ADDED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:22:19-49
 uses-sdk
 INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml

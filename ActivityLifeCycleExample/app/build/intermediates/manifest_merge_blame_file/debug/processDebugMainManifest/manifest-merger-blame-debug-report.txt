@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.13.0] C:\Users\scile\.gradle\caches\8.13\transforms\a8cf1068e71a193bee6e3efcd67d115d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:5:5-25:19
+17-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:5:5-24:19
 18        android:allowBackup="true"
 18-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -43,25 +43,25 @@
 29        android:theme="@style/Theme.ActivityLifeCycleExample" >
 29-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:13:9-62
 30        <activity
-30-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:14:9-21:20
+30-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:9-20:20
 31            android:name="np.edu.kathford.activitylifecycleexample.MainActivity"
-31-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:13-41
+31-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:19-47
 32            android:exported="true" >
-32-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:16:13-36
+32-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:15:48-71
 33            <intent-filter>
-33-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:17:13-20:29
+33-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:16:13-19:29
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:17-77
-34-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:27-74
+34-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:17:17-76
+34-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:17:27-74
 35
 36                <action android:name="android.intent.action.MAIN" />
-36-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:19:17-69
-36-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:19:25-66
+36-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:17-68
+36-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:18:25-66
 37            </intent-filter>
 38        </activity>
 39        <activity android:name="np.edu.kathford.activitylifecycleexample.SecondActivity" />
-39-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:23:9-52
-39-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:23:19-49
+39-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:22:9-51
+39-->D:\BCA-VI\AndroidDev\ActivityLifeCycleExample\app\src\main\AndroidManifest.xml:22:19-49
 40
 41        <provider
 41-->[androidx.emoji2:emoji2:1.3.0] C:\Users\scile\.gradle\caches\8.13\transforms\f685aa57803c3bf5475aa160eef1e2ef\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
