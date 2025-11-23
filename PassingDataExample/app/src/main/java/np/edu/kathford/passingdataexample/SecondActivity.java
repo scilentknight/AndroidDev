@@ -25,7 +25,6 @@ public class SecondActivity extends AppCompatActivity {
         tvMobileNumber = findViewById(R.id.tvMobileNumber);
         btnOK = findViewById(R.id.btnOk);
 
-        if (getIntent() != null) {
             Intent intent = getIntent();
             String fullName = intent.getStringExtra("full_name");
             int age = intent.getIntExtra("age", 0);
@@ -36,13 +35,15 @@ public class SecondActivity extends AppCompatActivity {
 //            tvAge.setText("" + age); OR
             tvAge.setText(String.valueOf(age));
             tvMobileNumber.setText(mobileNumber);
-        }
+
 
         btnOK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
-                startActivity(intent);
+                intent.putExtra("ack",18);
+                setResult(201, intent);
+                //finish is used to close activity
+                finish();
             }
         });
 

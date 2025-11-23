@@ -46,5 +46,4 @@ public class SecondActivity extends AppCompatActivity {
         Log.d(TAG, "onDestroy() callback method");
     }
 
-
 }
