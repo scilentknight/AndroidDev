@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FragmentLifeCycleExample</string>
+    <string name="fragment_life_cycle_example">Fragment Life Cycle Example</string>
+</resources>
