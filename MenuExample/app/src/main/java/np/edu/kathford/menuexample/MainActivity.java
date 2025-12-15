@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         subjectButton = findViewById(R.id.subjectButton);
         registerForContextMenu(textView);
 
+
+        // Popup Menu
         subjectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    // Options Menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -80,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+
+    // Context menu (eg, Copy, Cut, SelectAll)
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         MenuInflater menuInflater = getMenuInflater();
