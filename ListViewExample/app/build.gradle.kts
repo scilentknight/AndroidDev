@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.listviewexample"
+    namespace = "np.edu.kathford.listviewexample"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.listviewexample"
+        applicationId = "np.edu.kathford.listviewexample"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -39,4 +39,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("com.squareup.picasso:picasso:2.8")
 }

@@ -9,7 +9,7 @@
         android:weightSum="1">
 
         <ImageView
-            android:id="@+id/poster"
+            android:id="@+id/posterImageView"
             android:layout_width="160dp"
             android:layout_height="match_parent"
             android:src="@drawable/poster"
@@ -22,7 +22,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvMovieName"
+                android:id="@+id/nameTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Movie Name"
@@ -31,7 +31,7 @@
                 android:textSize="24sp"/>
 
             <TextView
-                android:id="@+id/tvDuration"
+                android:id="@+id/durationTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -40,7 +40,7 @@
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/tvDescription"
+                android:id="@+id/descriptionTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -49,6 +49,6 @@
                 android:textSize="18sp"/>
 
 
-         </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

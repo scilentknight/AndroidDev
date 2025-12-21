@@ -1,4 +1,4 @@
-package com.example.listviewexample;
+package np.edu.kathford.listviewexample;
 
 import org.junit.Test;
 
