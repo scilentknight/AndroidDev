@@ -1,4 +1,4 @@
-package np.edu.kathford.listviewexample;
+package np.edu.kathford.listviewexample.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,33 +15,36 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-public class CustomListViewAdapter extends ArrayAdapter<MovieModel> {
+import np.edu.kathford.listviewexample.model.MovieModel;
+import np.edu.kathford.listviewexample.R;
+
+public class CustomGridViewAdapter extends ArrayAdapter<MovieModel> {
     private  Context context;
     private ArrayList<MovieModel> movieList;
 
-    public CustomListViewAdapter(Context context, ArrayList<MovieModel> movieList) {
+    public CustomGridViewAdapter(Context context,
+                                 ArrayList<MovieModel> movieList) {
         super(context, 0, movieList);
         this.context=context;
         this.movieList=movieList;
     }
+
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView,
                         @NonNull ViewGroup parent) {
         if(convertView == null){
-            convertView = LayoutInflater.from(context).inflate(R.layout.item_movie,
+            convertView = LayoutInflater.from(context).inflate(R.layout.grid_item_movie,
                     parent,false);
             //find view by id
             ImageView posterImageView= convertView.findViewById(R.id.posterImageView);
-            TextView movieNameTextView = convertView.findViewById(R.id.nameTextView);
+            TextView movieNameTextView = convertView.findViewById(R.id.movieNameTextView);
             TextView durationTextView = convertView.findViewById(R.id.durationTextView);
-            TextView descriptionTextView = convertView.findViewById(R.id.descriptionTextView);
 
             MovieModel movieModel=movieList.get(position);
             movieNameTextView.setText(movieModel.getName());
             durationTextView.setText(movieModel.getDuration());
-            descriptionTextView.setText(movieModel.getDescription());
             Picasso.get().load(movieModel.getPoster()).into(posterImageView);
 
         }

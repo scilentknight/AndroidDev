@@ -7,8 +7,8 @@
         android:id="@+id/posterImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/poster"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/poster" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,23 +20,23 @@
         <TextView
             android:id="@+id/movieNameTextView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:padding="4dp"
-            android:text="Dhurandhar"
+            android:text="Dhurndhar"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/movieDurationTextView"
+            android:id="@+id/durationTextView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="4dp"
-            android:text="3h:32m"
+            android:layout_height="wrap_content"
+            android:text="3h:30m"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textColor="@color/white" />
+
     </LinearLayout>
+
+
 </RelativeLayout>

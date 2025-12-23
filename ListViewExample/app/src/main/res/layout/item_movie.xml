@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="180dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,12 +13,13 @@
             android:id="@+id/posterImageView"
             android:layout_width="160dp"
             android:layout_height="match_parent"
-            android:src="@drawable/poster"
-            android:layout_weight="0.2"/>
+            android:layout_weight="0.2"
+            android:src="@drawable/poster" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
             android:layout_weight="0.8"
             android:orientation="vertical">
 
@@ -27,17 +29,14 @@
                 android:layout_height="wrap_content"
                 android:text="Movie Name"
                 android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="24sp"/>
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/durationTextView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Duration"
-                android:textColor="@color/black"
-                android:textSize="18sp"/>
+                android:text="Duration" />
 
             <TextView
                 android:id="@+id/descriptionTextView"
@@ -46,9 +45,11 @@
                 android:layout_marginTop="8dp"
                 android:text="Description"
                 android:textColor="@color/black"
-                android:textSize="18sp"/>
-
+                android:textSize="18sp" />
 
         </LinearLayout>
+
     </LinearLayout>
+
+
 </RelativeLayout>
